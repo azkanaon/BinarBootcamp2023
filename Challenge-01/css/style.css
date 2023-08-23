@@ -1,0 +1,117 @@
+* {
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20%;
+}
+
+.navbar .container-fluid .sidebar {
+  width: 50vw;
+}
+
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.biru {
+  background-color: #f1f3ff;
+}
+
+.biru .mobil {
+  z-index: 2;
+}
+
+.biru .background_blue {
+  background-color: #0d28a6;
+  width: 100%;
+  border-radius: 100px 0 0 0;
+  height: 15vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.biru .rental {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.container .rental {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.container .kenapa {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container .ukuranKotak {
+  height: 25vh;
+}
+
+.container .ukuranKotak2 {
+  height: 25vh;
+  width: 100vw;
+}
+
+.swiper .fotoReview {
+  width: 27%;
+}
+
+.swiper .sizeReview {
+  width: auto;
+  background-color: #f1f3ff;
+}
+
+.swiper .review {
+  width: 25%;
+}
+
+.container .bgSection5 {
+  background-color: #0d28a6;
+}
+
+.container .btnSection5 {
+  background-color: #5cb85f;
+}
+
+.container .h2section5 {
+  font-size: 24px;
+}
+
+@media (min-width: 560px) {
+  /* ukuran background biru dibelakang mobil pada seection 1 */
+  .biru .background_blue {
+    height: 15vh;
+  }
+}
+@media (min-width: 768px) {
+  /* ukuran background biru dibelakang mobil pada seection 1 */
+  .biru .background_blue {
+    height: 12vh;
+  }
+
+  /* Setting lebar foto untuk section 4 (review) */
+  .swiper .fotoReview {
+    width: 100%;
+  }
+  .swiper .review {
+    width: 30%;
+  }
+  .container .h2section5 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 992px) {
+  /* ukuran background biru dibelakang mobil pada seection 1 */
+  .biru .background_blue {
+    height: 18vh;
+  }
+}
+@media (min-width: 1200px) {
+  /* ukuran background biru dibelakang mobil pada seection 1 */
+  .biru .background_blue {
+    height: 25vh;
+  }
+}
