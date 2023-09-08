@@ -31,7 +31,7 @@ const dataPenjualanNovel = [
     namaProduk: 'Laskar Pelangi',
     penulis: 'Andrea Hirata',
     hargaBeli: 55000,
-    hargaJual: "68000",
+    hargaJual: 68000,
     totalTerjual: 20,
     sisaStok: 56,
   },
